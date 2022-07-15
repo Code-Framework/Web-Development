@@ -1,6 +1,6 @@
 <?php
     define('USER', 'id19251342_checklog');
-    define('PASSWORD', 'Aa@123456789');
+    define('', '');
     define('HOST', 'localhost');
     define('DATABASE', 'id19251342_conn');
     try {
