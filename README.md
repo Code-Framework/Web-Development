@@ -1,2 +1,2 @@
 # Web-Development
-Implementation of Web echnologies
+Implementation of Web Technologies
