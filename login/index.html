@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="login.js"></script>
+    <link rel="stylesheet" href="login.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+
+<body>
+    <login class="login-container">
+        <card class="login-card">
+            <form name="login" action="login.php" method="post">
+                <h1 style="text-align: center" id="log">Login</h1>
+                <input type="text" name="username" id="username" placeholder="Username" pattern="[a-zA-Z0-9]+" required />
+                <input type="text" name="Password" id="Password" placeholder="Password" required />
+                <input type="submit"  name="login" value="Login" id ="submit"/>
+                <p></p>
+            </form>
+        </card>
+    </login>
+</body>
+</html>

@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    overflow:hidden;
+}
+
+html {
+    background: url(img/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.login-container {
+    box-sizing:border-box;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:center;
+    align-content: center;
+    min-height:100vh;
+}
+
+.login-card {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    align-content:center;
+    justify-content:flex-start;
+    width:90vw;
+    height:auto;
+}
+
+input{
+    display:block;
+    margin:2em;
+    padding:0.5em;
+    border:none;
+    font-size:1.3em;
+    border-radius:5px;
+    
+
+}
+
+input:focus {
+    outline: none
+}
+
+#log {
+    color: white;
+    font-weight:bold;
+    margin-top:0.5em;
+}
+
+button {
+    border:none;
+    font-size:1.3em;
+    background-color: greenyellow;
+    margin:2em;
+    padding:0.5em;
+    border-radius: 5px;
+}
+span{
+    margin:2em;
+    padding:0.5em;
+    font-size:1em;
+    color: aliceblue;
+    font-weight: bolder;
+}
+
+
+@media only screen and (max-width: 800px) {}
