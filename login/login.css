@@ -59,18 +59,14 @@ input:focus {
 button {
     border:none;
     font-size:1.3em;
-    background-color: greenyellow;
+    background-color: green;
     margin:2em;
     padding:0.5em;
     border-radius: 5px;
 }
-span{
-    margin:2em;
-    padding:0.5em;
-    font-size:1em;
-    color: aliceblue;
+#reg{
+    text-decoration: none;
+    text-align: center;
+    color: white;
     font-weight: bolder;
 }
-
-
-@media only screen and (max-width: 800px) {}

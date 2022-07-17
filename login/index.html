@@ -13,13 +13,18 @@
 <body>
     <login class="login-container">
         <card class="login-card">
-            <form name="login" action="login.php" method="post">
-                <h1 style="text-align: center" id="log">Login</h1>
-                <input type="text" name="username" id="username" placeholder="Username" pattern="[a-zA-Z0-9]+" required />
-                <input type="text" name="Password" id="Password" placeholder="Password" required />
-                <input type="submit"  name="login" value="Login" id ="submit"/>
-                <p></p>
+            <form action="login.php" method="post">
+                <!-- <h1 style="text-align: center" id="log">Login</h1> -->
+                <div>
+                <input type="text" name="log_user" id="log_user" placeholder="log_user">
+                <input type="text" name="log_Pass" id="log_Pass" placeholder="log_Pass">
+                <input type="submit" name="submit" value="Submit">
             </form>
+                <div>
+                <button><a href="register.html" id="reg">create account</a></button>
+                </div>
+            </div>
+            
         </card>
     </login>
 </body>
